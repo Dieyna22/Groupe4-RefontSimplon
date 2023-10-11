@@ -455,6 +455,10 @@ footer .footerContainer {
     margin-bottom: 6%;
 }
 
+footer .pleft{
+    text-align: left;
+}
+
 .footerContainer .logoFooter .logo {
     width: 50%;
     margin-bottom: 6%;

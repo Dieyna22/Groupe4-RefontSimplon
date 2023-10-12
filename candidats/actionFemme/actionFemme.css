@@ -194,6 +194,10 @@
         display: block;
     }
 
+    main .sectionF .pTitre{
+        width: 100%;
+    }
+
     main .sectionF .detailfem .detFemImg{
         width: 100%;
     }
@@ -204,10 +208,10 @@
 
     /* section2 */
     main .section2 .section2Container{
-    /* margin: 2% 4%; */
         display: grid;
         grid-template-columns: 1fr;
-        gap: 8%;
+        gap: 20px;
+        overflow: hidden;
     }
 
     /* section3 */
@@ -220,6 +224,12 @@
 
     main .section3 .detailfem3 .detFemtext3{
         width: 100%;
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+
+    main .sectionF .detailfem .detFemtext p{
+        text-align: justify !important;
     }
 
     main .section3 .detailfem3 .detFemImg3{
@@ -289,6 +299,9 @@
     }
 
     /* section3 */
+    main .sectionF .pTitre{
+        width: 90%;
+    }
     main .section3 .detailfem3{
         display: block;
     }
@@ -377,9 +390,9 @@ main .sectionF .sectionFemContainer{
 }
 
 /* section 2 */
-main .section2{
-    /* padding-bottom: 2%; */
-}
+/* main .section2{
+    
+} */
 
 main .section2Container{
     /* margin: 2% 4%; */

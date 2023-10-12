@@ -1,7 +1,8 @@
+/* header */
 /* entete 3 */
 .entete3 {
     border-top: 5px solid #CE0033;
-    background-image: url(./imgForm/img1.jpg);
+    background-image: url(./imgMigration/apprenant-tech\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 138px;
@@ -22,7 +23,6 @@
     color: white;
     font-weight: bold;
     font-size: 55px;
-    border: 1px solid red;
     width: 40%;
     margin: 0 auto;
     background-color: #ce0034c3;
@@ -37,6 +37,9 @@
     color: white !important;
     text-align: left !important;
     font-weight: 700;
+    position: relative;
+    bottom: 100px;
+    left: 30px;
 }
 
 .entete3 .raccourcis .raccourcisP a {
@@ -182,6 +185,81 @@
         margin-top: 5%;
     }
 
+    /* main */
+
+    .entete3 .raccourcis .raccourcisP {
+        color: white !important;
+        text-align: left !important;
+        font-weight: 400;
+        position: relative;
+        font-size: 16px;
+        bottom: 0px;
+        left: 10px;
+    }
+
+    main .carteMig {
+        width: 100% !important;
+        margin: 0 auto !important;
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        background-color: #CE0033;
+        padding: 2%;
+    }
+    
+    main .carteMig .carteMigCont p {
+        color: white;
+        text-align: justify;
+        font-size: 16px !important;
+        margin: 0;
+    }
+
+    main .sectionMig .MigContainer {
+        display: block !important;
+    }
+    
+    main .sectionMig .MigContainer .MigLeft {
+        width: 100% !important;
+    }
+    
+    main .sectionMig .MigContainer .MigRight {
+        width: 100% !important;
+        margin-bottom: 2% !important;
+        margin-top: 2% !important;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig{
+        display: block !important;
+        margin-top: 3% !important;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2img{
+        width: 100% !important;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2Detail{
+        width: 100% !important;
+
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2Detail p{
+        font-size: 14px;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2Detail button{
+        margin-bottom: 0px !important;
+    }
+
+    main .migCartCont .migCartes{
+        width: 100% !important;
+    }
+
+
+    main .MigCart .migCartCont .migCartes{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
 
     /* footer */
     footer .footerContainer {
@@ -237,4 +315,266 @@
     .entete3 {
         margin-top: 105px;
     }
+
+    /* main */
+
+    .entete3 .raccourcis .raccourcisP {
+        color: white !important;
+        text-align: left !important;
+        font-weight: 600;
+        position: relative;
+        font-size: 18px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    main .carteMig {
+        width: 100% !important;
+        margin: 0 auto !important;
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        background-color: #CE0033;
+        padding: 2%;
+    }
+    
+    main .carteMig .carteMigCont p {
+        color: white;
+        text-align: justify;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    main .sectionMig .MigContainer {
+        display: block !important;
+    }
+    
+    main .sectionMig .MigContainer .MigLeft {
+        width: 100% !important;
+    }
+    
+    main .sectionMig .MigContainer .MigRight {
+        width: 100% !important;
+        margin-bottom: 2% !important;
+        margin-top: 2% !important;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2img{
+        width: 70% !important;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2Detail h3{
+        margin-bottom: 5px !important;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2Detail p{
+        font-size: 14px;
+    }
+
+    main .sectionMig .MigContainer .cart2Mig .mig2Detail button{
+        margin-bottom: 0px !important;
+    }
+
+    main .migCartCont .migCartes{
+        width: 90% !important;
+    }
+
+    main .MigCart .migCartCont .migCartes{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
 }
+/* header */
+
+
+/* main */
+main{
+    border: 1px solid red;
+    background-color: #d9d9d9a2;
+}
+
+/* section CartMig */
+main .carteMig{
+    width: 80%;
+    margin: 0 auto;
+    left: 10%;
+    position: absolute;
+    top: 600px;
+    background-color: #CE0033;
+    padding: 2%;
+}
+
+main .carteMig .carteMigCont p{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* section Mig */
+
+main .sectionMig{
+    margin-top: 5%;
+}
+
+main .sectionMig .MigContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .sectionMig .MigContainer .MigLeft{
+    width: 30%;
+}
+
+main .sectionMig .MigContainer .MigRight {
+    width: 68%;
+}
+
+main .MigContainer .MigLeft .imgMig1 img{
+    width: 100%;
+}
+
+main .MigContainer .MigLeft .mig1Detail{
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+}
+
+main .MigContainer .MigLeft .mig1Detail h3{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+main .MigContainer .MigLeft .mig1Detail p{
+    font-weight: 500;
+    margin-bottom: 4%;
+}
+
+main .MigContainer .MigLeft .mig1Detail button{
+    width: 70%;
+    background-color: #CE0033;
+    font-weight: bold;
+}
+
+main .MigContainer .MigLeft .mig1Detail button a{
+    color: white;
+    cursor: pointer;
+}
+
+main .MigContainer .MigRight .cart2Mig{
+    display: flex;
+}
+
+main .MigContainer .MigRight .cart2Mig:nth-child(1){
+    margin-bottom: 2%;
+}
+
+main .MigContainer .MigRight .cart2Mig .mig2img{
+    width: 45%;
+}
+
+main .MigContainer .MigRight .cart2Mig .mig2img img{
+    width: 100%;
+}
+
+main .MigContainer .MigRight .cart2Mig .mig2Detail {
+    width: 70%;
+    background-color: white;
+    text-align: left;
+    padding: 2%;
+}
+
+.MigRight .mig2Detail h3{
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.MigRight .mig2Detail p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+
+.MigRight .mig2Detail button{
+    width: 60%;
+    background-color: #CE0033;
+    font-weight: bold;
+}
+
+.MigRight .mig2Detail button a{
+    color: white;
+}
+
+/* section MigCart */
+
+main .MigCart{
+    margin-top: 3%;
+    text-align: center;
+}
+
+main .MigCart h3{
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+main .MigCart .migCartTrait{
+    width: 10%;
+    height: 5px;
+    background-color: #CE0033;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+main .migCartCont .migCartes{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.migCartCont .migCartes .cartM{
+    background-color: white;
+    padding: 4%;
+    border-bottom: 10px solid black;
+}
+
+.migCartCont .migCartes .cartM .cartMImg{
+    margin-bottom: 40px;
+}
+
+.migCartCont .migCartes .cartM .cartMImg img{
+    width: 100%;
+}
+
+.migCartCont .migCartes .cartM .cartMDet{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.migCartCont .migCartes .cartM .cartMDet h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.migCartCont .migCartes .cartM .cartMDet button{
+    width: 70%;
+    background-color: #CE0033;
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.migCartCont .migCartes .cartM .cartMDet button a{
+    color: white;
+    font-weight: bold;
+}
+
+/* main */

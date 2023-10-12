@@ -1,9 +1,5 @@
 /* haeder */
 
-/* header{
-    margin-bottom: 0 !important;
-} */
-
 /* entete 3 */
 .entete3 {
     border-top: 5px solid #CE0033;
@@ -53,9 +49,6 @@
 }
 
 /* entete 3 */
-
-
-
 
 
 /* media queries */
@@ -297,10 +290,6 @@ main{
     margin-top: 0 !important;
 }
 
-/* main .sectionVae{
-    border: 1px solid red;
-} */
-
 main .VaeContainer{
     margin: 2% 4%;
 }
@@ -335,7 +324,6 @@ main .containerVaeInfo .textVae{
     width: 65%;
     text-align: justify;
     padding: 2%;
-    /* font-size: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,3 +1,10 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url('https://img.freepik.com/premium-photo/group-successful-businessmen_118454-367.jpg?w=740') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
 .containerEntete3{
     background-color: #C30038;
     width: 40%;

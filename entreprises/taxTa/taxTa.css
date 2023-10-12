@@ -1,0 +1,57 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    /* background-image: url(../formerSalarie/Images/1.\ des\ formations\ 1.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+
+.taxeTA{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.left{
+    color: white;
+}
+.Taxe{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    justify-content: center;
+    background-color:#ce0033;
+    color: white;
+    width: 30%;
+
+}
+.ImageTaxe img{
+    width: 50%;
+    height: 2%;
+    margin-top: 5%;
+
+}
+.contenuTA{
+    display: flex;
+    gap: 20%;
+}
+.BouttoTA,.TexteP2{
+background-color:#f1f5f8;;
+margin-left: 20px;
+}
+.imageContenu{
+    width: 20px;
+    height: 50px;
+}
+.btn btn-primery{
+    border-color: 2px red;
+}
+.card{
+    /* background-color: #f1f5f8; */
+}
+.btn btn-primery mt-3{
+    border: 1px solid red;
+}
+.card{
+    background-color:#f1f5f8 ;
+    border: none;
+}   

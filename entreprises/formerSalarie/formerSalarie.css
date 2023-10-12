@@ -1,0 +1,30 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url(../formerSalarie/Images/1.\ des\ formations\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+.card{
+    background-color: #f1f5f8;
+    border: none;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.left{
+    color: white;
+}
+.containerEntete3 {
+display: grid;
+grid-template-columns: 1fr;
+text-align: center;
+background-color: #CE0033;
+width: 50%;
+height: 5%! important;
+margin-top: 10%;
+margin-left: 50%;
+color: white;
+letter-spacing: 1.5px;
+
+}

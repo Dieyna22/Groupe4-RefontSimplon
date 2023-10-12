@@ -1,0 +1,61 @@
+.containerEntete3{
+    background-color: #C30038;
+    width: 40%;
+    height: 20px;
+    margin: 0 auto;
+    padding: 6px;
+}
+.containerEntete3 p{
+    color: #fff!important;
+}
+.containerEntete3 h2{
+    font-size: 24px !important;
+    padding: 5px;
+}
+details {
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    background-color: #f6f6f6;
+    
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+    margin-left: 60px;
+}
+
+details[open] .arrow {
+    transform: rotate(180deg);
+}
+
+/* Style lorsque les détails sont ouverts */
+details[open] {
+    background-color: #ffff;
+}
+
+.number{
+    color: var(--vert);
+    margin-right: 10px;
+}
+.titreFaq{
+    text-align: center;
+}
+.simplonFaq h5{
+    font-weight: bold;
+}
+.simplonFaq hr{
+    color: #C30033;
+    width: 10%;
+    height: 10%;
+}

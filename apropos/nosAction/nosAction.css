@@ -1,0 +1,27 @@
+.containerEntete3{
+    background-color: #C30038;
+    width: 40%;
+    height: 20px;
+    margin: 0 auto;
+}
+.containerEntete3 p{
+    color: #fff!important;
+}
+.containerEntete3 h2{
+    font-size: 24px !important;
+    padding: 5px;
+}
+.programme{
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 5px;
+}
+.programme h3{
+    color: #C30033;
+}
+.programme button{
+    background-color: #C30033;
+    border: none;
+    color: #fff;
+    padding: 8px;
+}

@@ -1,0 +1,152 @@
+.containerEntete3{
+    background-color: #C30038;
+    width: 40%;
+    height: 20px;
+    margin: 0 auto;
+}
+.containerEntete3 p{
+    color: #fff!important;
+}
+.containerEntete3 h2{
+    font-size: 24px !important;
+    padding: 5px;
+}
+.entete3 { 
+    border-top: 5px solid #CE0033; 
+    background-image: url(./SimplonImg/IMG1.jpg);
+    background-repeat: no-repeat; background-size: 100% 100%;
+    margin-top: 138px; 
+}
+.descriptionSimplon{
+    display: flex;
+    background-color: #F6F6F6;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+.imageSimplon{
+    width: 30%;
+    height: 20%;
+}
+.textSimplon{
+    background-color: #eeeeee;
+    position: relative;
+    left: -14px;
+    top: 65px;
+    height: 45vh;
+    text-align: justify;
+    padding: 8px;
+}
+.textSimplon h3{
+    color: #ce0033;
+    font-size: 24px;
+}
+.notreHistire{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #F6F6F6;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.notreHistire .titre h3{
+    color: #ce0033;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 25vh;
+}
+.detailsHistoire{
+    width: 60%;
+}
+
+/* Styles pour les balises details et summary */
+details {
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+    margin-left: 60px;
+}
+
+details[open] .arrow {
+    transform: rotate(180deg);
+}
+
+/* Style lorsque les détails sont ouverts */
+details[open] {
+    background-color: #ffff;
+}
+
+.number{
+    margin-right: 10px;
+}
+.infosSup{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #F6F6F6;
+}
+.engagementSimplon{
+    width: 50%;
+    height: 35%;
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 9px;
+    border-radius: 10px;
+}
+.engagementSimplon h3{
+    color: #ce0033;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+@media (max-width:700px){
+    .containerQsm{
+        display: flex;
+        flex-direction: column;
+    }
+    .textSimplon{
+        background-color: #eeeeee;
+        position: relative;
+        left: 14px;
+        top: -25vh;
+        height: 60vh;
+        text-align: justify;
+    }
+    .imageSimplon{
+        width: 50%;
+    }
+    .descriptionSimplon{
+        display: flex;
+        flex-direction: column;
+    }
+    .notreHistire{
+        display: flex;
+        flex-direction: column;
+    }
+    .infosSup{
+        display: flex;
+        flex-direction: column;
+    }
+    .notreHistire .titre h3{
+        color: #ce0033;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: -2vh;
+    }
+}

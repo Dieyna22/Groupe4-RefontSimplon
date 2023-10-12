@@ -1,0 +1,28 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url(../formerSalarie/Images/1.\ des\ formations\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+.containerEntete3 {
+    /* display: grid; */
+    /* grid-template-columns: auto; */
+    text-align: center;
+
+}
+.ligne1 hr{
+    color: #CE0033;
+    width: 50px;
+
+}
+.card-title{
+    font-size: bold;
+}
+/* .barre{
+    width: 2;
+    background-color: #CE0033;
+    height: 100%;
+    border: 2px solid red;
+    float: left;
+} */

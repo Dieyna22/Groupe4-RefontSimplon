@@ -1,51 +1,69 @@
+/* headerTop */
+header .headerTop {
+    border-bottom: 5px solid #CE0033;
+}
+
 /* entete 3 */
 .entete3 {
-    border-top: 5px solid #CE0033;
-    background-image: url(./imgForm/img1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 138px;
+    margin-top: 141px;
+    background-color: #CE0033;
 }
 
-.entete3 .backEntete3 {
-    background-color: rgba(0, 0, 0, 0.658);
-    padding-top: 13%;
-    padding-bottom: 1%;
+.entete3 .entete3Cont {
+    display: flex;
 }
 
-.entete3 .containerEntete3 {
-    text-align: center;
-    padding-bottom: 13%;
+.entete3 .entete3Cont .entete3Left{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.entete3 .containerEntete3 h2 {
-    color: white;
+.entete3Left .detLeft3{
+    padding: 0 3%;
+}
+
+.entete3Left .detLeft3 .ligne{
     font-weight: bold;
-    font-size: 55px;
-    border: 1px solid red;
-    width: 40%;
-    margin: 0 auto;
-    background-color: #ce0034c3;
-    padding: 2% 0;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 4%;
 }
 
-.entete3 .raccourcis {
-    padding-left: 4%;
+.entete3Left .detLeft3 h2{
+    font-weight: bolder;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 4%;
 }
 
-.entete3 .raccourcis .raccourcisP {
-    color: white !important;
-    text-align: left !important;
-    font-weight: 700;
-}
-
-.entete3 .raccourcis .raccourcisP a {
+.entete3Left .detLeft3 p{
+    font-size: 16px;
     color: white;
 }
 
-.entete3 .raccourcis .right {
-    color: #CE0033;
+.entete3Left .detLeft3 button{
+    background-color: #F0B90A;
+    width: 30%;
+    border-radius: none;
 }
+
+.entete3Left .detLeft3 button a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.entete3 .entete3Cont .entete3Right {
+    width: 40%;
+}
+
+.entete3 .entete3Cont .entete3Right img{
+    width: 100%;
+}
+
+
 
 /* entete 3 */
 
@@ -182,6 +200,110 @@
         margin-top: 5%;
     }
 
+    .entete3 .entete3Cont{
+        padding: 3% 0;
+        display: block;
+    }
+
+    .entete3 .entete3Cont .entete3Left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .entete3 .entete3Cont .entete3Right {
+        width: 100%;
+    }
+
+    .entete3Left .detLeft3 .ligne {
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 15px;
+    }
+    
+    .entete3Left .detLeft3 h2 {
+        font-weight: bolder;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 15px;
+    }
+    
+    .entete3Left .detLeft3 p {
+        font-size: 15px;
+        color: white;
+    }
+    
+    .entete3Left .detLeft3 button {
+        background-color: #F0B90A;
+        width: 50%;
+        border-radius: none;
+    }
+
+    /* main */
+    main .sectionChainCont .sectChainT h2 {
+        font-size: 18px;
+        width: 100%;
+        margin: 0 auto;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+    
+    main .sectionChainCont .sectChainT .chainTrait {
+        width: 40%;
+        height: 5px;
+        background-color: #CE0033;
+        margin: 0 auto;
+        margin-bottom: 4%;
+    }
+
+    main .chainCont{
+        display: block;
+    }
+
+    main .chainCont .chainLeft {
+        width: 100%;
+        margin-bottom: 4% !important;
+    }
+    
+    main .chainCont .chainRight {
+        width: 100%;
+    }
+
+    main .section3 .sect3Container {
+        padding: 2% 4%;
+        display: block !important;
+        background-color: #d9d9d973;
+    }
+    
+    main .sect3Container .sect3Left {
+        width: 100%;
+        padding: 2%;
+    }
+    
+    main .sect3Container .sect3Right {
+        width: 100%;
+        padding: 2%;
+    }
+
+    main .sect3Right .boutons {
+        display: block;
+    }
+    
+    main .sect3Right .boutons button {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    main .sect3Right .boutons button:nth-child(1){
+        margin-bottom: 4%;
+    }
+
+    main .sect3Right h3 {
+        font-size: 25px;
+    }
+
 
     /* footer */
     footer .footerContainer {
@@ -237,4 +359,249 @@
     .entete3 {
         margin-top: 105px;
     }
+
+    .entete3 .entete3Cont{
+        padding: 3% 0;
+    }
+
+    .entete3 .entete3Cont .entete3Left {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .entete3Left .detLeft3 {
+        padding: 0 3%;
+    }
+    
+    .entete3Left .detLeft3 .ligne {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .entete3Left .detLeft3 h2 {
+        font-weight: bolder;
+        font-size: 35px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .entete3Left .detLeft3 p {
+        font-size: 14px;
+        color: white;
+    }
+    
+    .entete3Left .detLeft3 button {
+        background-color: #F0B90A;
+        width: 50%;
+        border-radius: none;
+    }
+    
+    .entete3Left .detLeft3 button a {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .entete3 .entete3Cont .entete3Right {
+        width: 40%;
+    }
+
+    main .sectionChainCont .sectChainT h2 {
+        font-size: 35px;
+        width: 90%;
+        margin: 0 auto;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+    
+    main .sectionChainCont .sectChainT .chainTrait {
+        width: 30%;
+        height: 5px;
+        background-color: #CE0033;
+        margin: 0 auto;
+        margin-bottom: 3%;
+    }
+
+    /* main */
+
+    main .chainCont{
+        display: block;
+    }
+
+    main .chainCont .chainLeft {
+        width: 100%;
+        margin-bottom: 4% !important;
+    }
+    
+    main .chainCont .chainRight {
+        width: 100%;
+    }
+
+    main .section3 .sect3Container {
+        padding: 2% 4%;
+        display: block !important;
+        background-color: #d9d9d973;
+    }
+    
+    main .sect3Container .sect3Left {
+        width: 100%;
+        padding: 2%;
+    }
+    
+    main .sect3Container .sect3Right {
+        width: 100%;
+        padding: 2%;
+    }
+
+}
+
+
+/* main */
+main{
+    padding: 0 !important;
+}
+main .sectionChain1{
+    padding-top: 2%;
+}
+
+.sectionChain1 .sectionChainCont .sectChainT{
+    text-align: center;
+}
+
+.sectionChainCont{
+    padding:  0 4%;
+}
+
+.sectionChainCont .sectChainT h2{
+    font-size: 35px;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.sectionChainCont .sectChainT .chainTrait{
+    width: 10%;
+    height: 5px;
+    background-color: #CE0033;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+/* chainCont */
+.chainCont{
+    display: flex;
+}
+
+.chainCont .chainLeft{
+    width: 30%;
+}
+
+.chainCont .chainLeft img{
+    width: 100%;
+}
+
+.chainCont .chainRight {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chainCont .chainRight .detRchain{
+    padding: 0 5%;
+}
+
+.chainRight .detRchain h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 2%;
+} 
+
+.chainRight .detRchain p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.chainRight .detRchain ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.chainRight .detRchain ul li i{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/* section2 */
+main .imgBanner{
+    margin-top: 2%;
+}
+
+/* section3 */
+main .section3{
+    border: 1px solid #F0B90A;
+}
+
+main .section3 .sect3Container{
+    padding: 0 4%;
+    display: flex;
+    background-color: #d9d9d973;
+}
+
+.sect3Container .sect3Left{
+    width: 50%;
+    padding: 2% 4% 2% 0;
+}
+
+.sect3Container .sect3Right {
+    width: 50%;
+    padding: 2% 4%;
+}
+
+.sect3Container .sect3Right .formT,h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.sect3Right h3{
+    font-size: 35px;
+}
+
+.sect3Right .textFormT{
+    text-align: justify;
+}
+
+.sect3Right .boutons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect3Right .boutons button{
+    width: 40%;
+    border-radius: 15px;
+}
+
+.sect3Right .boutons button a{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.sect3Right .boutons button:nth-child(1){
+    background-color: #F0B90A;
+}
+.sect3Right .boutons button:nth-child(2) {
+    background-color: #CE0033;
+}
+/* main */
+
+
+/* footer */
+footer .titre3{
+    text-align: left !important;
 }

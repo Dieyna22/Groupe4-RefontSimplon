@@ -203,13 +203,13 @@ ul.firstUl li:hover ul.secondUl {
 
 
 /* entete3 */
-.entete3 {
+/* .entete3 {
     border-top: 5px solid #CE0033;
     background-image: url(./SimplonImg/IMG1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 138px;
-}
+} */
 
 .entete3 .backEntete3 {
     background-color: rgba(0, 0, 0, 0.658);

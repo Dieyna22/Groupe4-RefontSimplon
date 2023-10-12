@@ -1,3 +1,14 @@
+/* entete 3 */
+
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url(../style/SimplonImg/IMG1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+
+
 .containerFormation{
     background-color: #F6F6F6;
     margin: 0 auto;

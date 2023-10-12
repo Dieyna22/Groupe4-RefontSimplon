@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style/index.css">
+    <link rel="stylesheet" href="./vae.css">
+    <title>Valider ses acquis par la VAE</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="">
+        <diV class="headerTop fixed-top">
+            <section class="entete1">
+                <div class="left">
+                    <a href="../../accueil/accueil.html">
+                        <img src="../../style/SimplonImg/logo2-removebg-preview.png" alt="">
+                    </a>
+                </div>
+                <div class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="rightContainer">
+                    <div class="rightDetail">
+                        <div class="Rdet">
+                            <div class="iconR">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                            <div class="textR">
+                                <span>Monday - Friday <br> 08:00 AM - 08:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightDetail">
+                        <div class="Rdet">
+                            <div class="iconR">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="textR">
+                                <span>Monday - Friday <br> 08:00 AM - 08:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightDetail icones">
+                        <span class="faIcon"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span><i class="fa-brands fa-twitter"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-linkedin-in"></i></span>
+                    </div>
+                </div>
+
+                <div class="dropMenu dropMenuHidden">
+                    <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                    <nav class="dropNav">
+                        <ul class="dropFirst">
+                            <li><a href="../../accueil/accueil.html">Accueil</a></li>
+                            <li><a href="../../apropos/qsm/qsm.html">A propos <i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../apropos/qsm/">Qui sommes-nous</a></li>
+                                    <li><a href="../../apropos/notrePedagogie/">Notre pédagogie</a></li>
+                                    <li><a href="../../apropos/notreReseau/">Notre réseau de fabrique</a></li>
+                                    <li><a href="../../apropos/nosAction/">Nos actions pour un numérique inclusif</a>
+                                    </li>
+                                    <li><a href="../../apropos/antiFaq/">Anti-FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../../formations/cybersecurite/cybersecurite.html">Formations <i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../formations/cybersecurite/">Infrastructure et cybersécurité</a>
+                                    </li>
+                                    <li><a href="../../formations/devApp/">Développement d'applications</a></li>
+                                    <li><a href="../../formations/numerique/">Fondamentaux numériques</a></li>
+                                    <li><a href="../../formations/agile/">Gestion de projet agile</a></li>
+                                    <li><a href="../../formations/devOps/">Cloud-devOps</a></li>
+                                    <li><a href="../../formations/ai/">Data-intelligence artificielle</a></li>
+                                    <li><a href="../../formations/meta/">Métavers et XR</a></li>
+                                    <li><a href="../../candidats/blockchain/blockchain.html">Blockchain</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../../alternances/faireFormation/faireFormation.html">Alternances <i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../alternances/faireFormation/faireFormation.html">Faire formation
+                                            en alternance</a></li>
+                                    <li><a href="../../alternances/recruterAlternace/recruterAlternace.html">Recruter en
+                                            alternance</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../../candidats/candidater/candidater.html">Candidats <i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../candidater/candidater.html">Candidater</a></li>
+                                    <li><a href="../vae/vae.html">Valider ses acquis par la VAE</a></li>
+                                    <li><a href="../actionFemme/actionFemme.html">Actions pour les femmes</a></li>
+                                    <li><a href="../handicap/handicap.html">Personnes en situation de handicap</a></li>
+                                    <li><a href="../migration/migration.html">Nos actions pour les refugiés et les
+                                            ressortissants</a></li>
+                                    <li><a href="../blockchain/blockchain.html">Se former à la blockchain</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../../entreprises/formerSalarie/formerSalarie.html">Entreprises <i
+                                        class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../entreprises/formerSalarie/formerSalarie.html">Former ses
+                                            salariés</a></li>
+                                    <li><a href="../../entreprises/taxTa/taxTa.html">Collecte de la TA 2023</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="entete2">
+                <nav class="navigation">
+                    <div class="menuleft">
+                        <ul class="firstUl">
+                            <li><a href="../../accueil/accueil.html">Accueil</a></li>
+                            <li><a href="../../apropos/qsm/">A propos <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../apropos/qsm/">Qui sommes-nous</a></li>
+                                    <li><a href="../../apropos/notrePedagogie/">Notre pédagogie</a></li>
+                                    <li><a href="../../apropos/notreReseau/">Notre réseau de fabrique</a></li>
+                                    <li><a href="../../apropos/nosAction/">Nos actions pour un numérique inclusif</a>
+                                    </li>
+                                    <li><a href="../../apropos/antiFaq/">Anti-FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Nos formations <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../formations/cybersecurite/">Infrastructure et cybersécurité</a>
+                                    </li>
+                                    <li><a href="../../formations/devApp/">Développement d'applications</a></li>
+                                    <li><a href="../../formations/numerique/">Fondamentaux numériques</a></li>
+                                    <li><a href="../../formations/agile/">Gestion de projet agile</a></li>
+                                    <li><a href="../../formations/devOps/">Cloud-devOps</a></li>
+                                    <li><a href="../../formations/ai/">Data-intelligence artificielle</a></li>
+                                    <li><a href="../../formations/meta/">Métavers et XR</a></li>
+                                    <li><a href="../../candidats/blockchain/blockchain.html">Blockchain</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Alternance <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../alternances/faireFormation/faireFormation.html">Faire formation
+                                            en alternance</a></li>
+                                    <li><a href="../../alternances/recruterAlternace/recruterAlternace.html">Recruter en
+                                            alternance</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Candidats <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../candidater/candidater.html">Candidater</a></li>
+                                    <li><a href="../vae/vae.html">Valider ses acquis par la VAE</a></li>
+                                    <li><a href="../actionFemme/actionFemme.html">Actions pour les femmes</a></li>
+                                    <li><a href="../handicap/handicap.html">Personnes en situation de handicap</a></li>
+                                    <li><a href="../migration/migration.html">Nos actions pour les refugiés et les
+                                            ressortissants</a></li>
+                                    <li><a href="../blockchain/blockchain.html">Se former à la blockchain</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Entreprises <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../entreprises/formerSalarie/formerSalarie.html">Former ses
+                                            salariés</a></li>
+                                    <li><a href="../../entreprises/taxTa/taxTa.html">Collecte de la TA 2023</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="spaceBlack">
+                        <div id="triangle-code"></div>
+                    </div>
+                </nav>
+            </section>
+        </diV>
+        <!-- section3 -->
+        <section class="entete3">
+            <div class="backEntete3">
+                <div class="container3">
+                    <div class="containerEntete3">
+                        <h2>Valider vos acquis de l’expérience avec Simplon</h2>
+                    </div>
+                    <div class="raccourcis">
+                        <strong class="raccourcisP">
+                            <span class="left"><a href="../../accueil/accueil.html">Accueil </a>/</span>
+                            <span class="right">VAE</span>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="../../style/FontAwesome.js"></script>
+    </header>
+
+    <!-- Main -->
+
+    <main>
+        <!-- sectionVae -->
+        <section class="sectionVae">
+            <section class="VaeContainer">
+                <div class="vaeTitre">
+                    <h2>VAE</h2>
+                    <div class="traitVae"></div>
+                </div>
+            </section>
+        </section>
+
+        <!-- sectionVaeInfo -->
+        <section class="sectionVaeInfo">
+            <section class="containerVaeInfo">
+                <div class="imgVae">
+                    <img src="./imgVae/Simplon-VAE.png" alt="">
+                </div>
+                <div class="textVae">
+                    <p>
+                        La loi n°2022-1598 du 21 décembre 2022 vient réformer la VAE en instaurant un accès universel à la VAE et en facilitant
+                        son accès :Allègement des conditions d’accès, augmentation de la durée du congé de VAE, financement des frais par les
+                        associations transitions pro, création d’un service public de VAE, telles sont les principales mesures en matière de VAE
+                        inscrites dans la loi. <br> Ce dispositif permet à toute personne, quelle que soit la durée de son expérience professionnelle,
+                        de bénéficier du dispositif, sous condition de respect des pré-requis d’accès à la certification ou à un bloc ou
+                        plusieurs blocs de compétences enregistrés au RNCP. Toutes nos certifications professionnelles enregistrées sur le RNCP
+                        dont notre Certification RNCP 34757 "Développeur en Intelligence Artificielle" sont accessibles par la voie de la VAE.
+                    </p>
+                </div>
+            </section>
+        </section>
+
+        <!-- sectionDeailVae -->
+        <section class="detailVae">
+            <div class="detailVaeContainer">
+                <h3>L’obtention de la VAE s’effectue en 3 étapes : recevabilité, préparation de la validation, évaluation.</h3>
+                <div class="vaeDetail">
+                    <h4>Étape 1 : demande de recevabilité</h4>
+                    <p>
+                        Dans un premier temps, nous étudions la recevabilité de votre demande.Pour cela il est nécessaire de télécharger le
+                        formulaire de recevabilité et de remplir l’intégralité des renseignements demandés. Vous pouvez solliciter un entretien
+                        pour confirmer votre choix de certification, comprendre la procédure VAE mise en place par Simplon et vous approprier
+                        les modalités de constitution de votre dossier. Et nous transmettre le formulaire rempli ainsi que les pièces
+                        justificatives (par courrier au 55 rue de Vincennes - 93100 Montreuil et/ou par mail à contactVAE@simplon.co.
+                        L’instruction de votre demande démarre dès réception du dossier complet, dont nous accuserons la réception. Simplon
+                        s’engage, conformément à la loi, à vous répondre dans les 2 mois suivant votre demande par courrier recommandé avec AR.
+                        *Le portail officiel du service public de la Validation des Acquis de l’Expérience est en cours de déploiement et ne
+                        nous permets pas actuellement de recevoir votre candidature sur le site officiel.
+                    </p>
+
+                    <h4>Étape 2 : préparation du dossier de validation</h4>
+                    <p>
+                        Une fois l’avis de recevabilité obtenu, vous devez préparer un dossier de validation qui sera examiné par un jury une
+                        fois complété. Simplon vous adressera par mail un dossier vierge à compléter. Si vous le souhaitez, Simplon peut vous
+                        accompagner dans la préparation de votre dossier de validation pour lever les éventuelles difficultés.
+                        Notre accompagnement est modulé en fonction de vos besoins et peut inclure :
+                        un appui méthodologique à la constitution du dossier
+                        la préparation à l’entretien avec le jury
+                        une assistance à l’orientation et à la recherche par le référent VAE
+                        Votre référent VAE vous informe régulièrement des prochaines dates de jury. Une fois votre dossier complété, vous êtes
+                        convoqué à une session d’évaluation.
+
+                    </p>
+
+                    <h4>Étape 3 : évaluation finale par un jury</h4>
+                    <p>
+                        Les membres du jury sont soumis à une charte de déontologie. Le jury évalue les compétences que vous avez acquises par
+                        expérience et vérifie qu'elles correspondent à celles qui sont exigées dans le référentiel de compétences du titre visé. <br>
+                        Cette évaluation repose sur :
+                        
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i> l’examen du dossier de validation que vous aurez rédigé ;</li>
+                            <li><i class="fa-solid fa-circle"></i> une session d’évaluation d’une heure pour laquelle vous êtes convoqué ;</li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                cette session se déroule en 2 temps : 1/2 heure de présentation de votre parcours et de vos réalisations en lien avec le
+                                référentiel d'activités et de certification ;
+                            </li>
+                            <li> <i class="fa-solid fa-circle"></i>puis 1/2 heure de questions/réponses avec le jury.</li>
+                        </ul>
+
+                        <br>
+
+                        <p>A l’issue de l’évaluation, le jury se prononce sur une validation totale, nulle ou partielle :</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i> si vous répondez à la totalité des exigences : la certification est délivrée ;</li>
+                            <li><i class="fa-solid fa-circle"></i> si vous ne répondez à aucune des exigences : vous recevez une notification de refus ;</li>
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                si vous répondez en partie aux exigences, tout en couvrant l’intégralité d’un ou plusieurs blocs de compétences du titre
+                                : le jury délivre une validation partielle.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footerContainer">
+            <div class="logoFooter">
+                <div class="logo">
+                    <a href="../../accueil/accueil.html">
+                        <img src="../../style/SimplonImg/logo2-removebg-preview.png" alt="">
+                    </a>
+                </div>
+                <p class="pleft"><span class="coods">Adresse:</span> Dakar</p>
+                <p class="pleft"><span class="coods">Téléphone:</span> 76 425 67 27</p>
+                <p class="pleft"><span class="coods">Email:</span> simplonsenegal@gmail.com</p>
+            </div>
+
+            <div class="pageFooter">
+                <h3 class="titre3">Pages</h3>
+                <ul>
+                    <li><a href="../../accueil/accueil.html">Accueil</a></li>
+                    <li><a href="../../apropos/qsm/qsm.html">A propos</a></li>
+                    <li><a href="../../formations/cybersecurite/cybersecurite.html">Formations</a></li>
+                    <li><a href="../../alternances/faireFormation/faireFormation.html">Alternances</a></li>
+                    <li><a href="../../candidats/candidater/candidater.html">Candidats</a></li>
+                    <li><a href="../../entreprises/formerSalarie/formerSalarie.html">Entreprises</a></li>
+                </ul>
+            </div>
+
+            <div class="formationFooter">
+                <h3 class="titre3">Formations</h3>
+                <ul>
+                    <li><a href="../../formations/cybersecurite/">Infrastructure et cybersécurité</a></li>
+                    <li><a href="../../formations/devApp/">Développement d'applications</a></li>
+                    <li><a href="../../formations/numerique/">Fondamentaux numériques</a></li>
+                    <li><a href="../../formations/agile/">Gestion de projet agile</a></li>
+                    <li><a href="../../formations/devOps/">Cloud-devOps</a></li>
+                </ul>
+            </div>
+
+            <div class="footerNews">
+                <h3 class="titre3">Newsletters</h3>
+                <form action="">
+                    <input class="form-control" type="text" placeholder="Email Address">
+                    <button class="btn">S'incrire</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <h6 class="text-center">Copyright 2023 All Rights reserved - Simplon</h6>
+        </div>
+    </footer>
+</body>
+
+<!-- script js -->
+<script src="../../style/test.js"></script>
+
+</html>

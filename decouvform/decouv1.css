@@ -295,6 +295,12 @@
   .bottomdright .card{
     margin-left: 4%;
   }
-
+.tab-pane{
+  margin: 5% auto;
+  width: 80%;
+  /* border: 1px solid green; */
+  box-shadow: 5px 10px 5px 10px rgb(233, 224, 224);
+  padding: 3%;
+}
 
   /* ....fin_design_listgroup.... */

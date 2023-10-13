@@ -1,22 +1,37 @@
-.entete3 { border-top: 5px solid #CE0033; background-image: url(../recruterAlternace/img\ alternance/alt1.jpg); background-repeat: no-repeat; background-size: 100% 100%; margin-top: 138px; }
+.entete3 { border-top: 5px solid #CE0033; background-image: url(../recruterAlternace/img\ alternance/oneone.png); background-repeat: no-repeat; background-size: 100% 100%; margin-top: 138px; }
+
 .backEntete3{
-    background-color: #f6f6f6 ;
-    width: 50%;
-    height: 50%;
     padding-bottom: 5%;
     padding-left: 5%;
 }
 .paragraphrouge{
     color: #CE0033;
-    font-size: 20px;
+    font-size: 22px;
 }
 .h1aprésimage{
-color: black;
+color: rgb(238, 231, 231);
 }
 .ptitPaprésimage{
-    color: black;  
+    color: rgb(238, 231, 231);
+    font-size: 12PX;  
 }
 .souligné{
     color: #CE0033;
 
+}
+.premierH3{
+    text-align: center;
+    font-weight: bold;
+  margin-bottom: 10%;
+}
+.trait{
+    width: 10%;
+    height: 5px;
+    margin: 0 auto;
+    border: none;
+    background-color: #CE0033 !important;
+    margin-bottom: 1%;
+   
+}.titreul{
+    font-weight: bold;
 }

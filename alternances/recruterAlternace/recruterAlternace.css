@@ -1,0 +1,22 @@
+.entete3 { border-top: 5px solid #CE0033; background-image: url(../recruterAlternace/img\ alternance/alt1.jpg); background-repeat: no-repeat; background-size: 100% 100%; margin-top: 138px; }
+.backEntete3{
+    background-color: #f6f6f6 ;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+.paragraphrouge{
+    color: #CE0033;
+    font-size: 20px;
+}
+.h1aprésimage{
+color: black;
+}
+.ptitPaprésimage{
+    color: black;  
+}
+.souligné{
+    color: #CE0033;
+
+}

@@ -8,8 +8,14 @@
     height: 4px;
     margin: 0 auto;
 }
-.entete3 { border-top: 5px solid #CE0033; background-image: url(../formations/cybersecurite/image_cyber/ac_forma.jpg); background-repeat: no-repeat; background-size: 100% 100%; margin-top: 138px; }
 .card{
     border-bottom-right-radius: 80px 80px;
     box-shadow: 2px 5px 5px #CE0033;
+}
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
 }

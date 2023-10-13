@@ -1,0 +1,300 @@
+.topformadec1{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #CE0033;
+    width: 10%;
+    display: flex;
+    height: 4px;
+    margin: 0 auto;
+}
+#papy {
+    width: 450px;
+    background: #fafafa;
+    min-height: 300px;
+  }
+  
+  #papy bg {
+    display: block;
+    width: 360px;
+    padding: 25px;
+  }
+  
+  .papy {
+    margin: auto;
+  }
+  
+  .papy input {
+    display: none;
+  }
+  
+  .papy .boutons {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .papy .boutons .lab {
+    display: inline-block;
+    width: 20px;
+    max-height: 9px;
+    padding: 9px 3px;
+    margin: 15px 6px;
+    font: 400 11px playfair display;
+    color: #fff;
+    text-align: center;
+    line-height: 9px;
+    transition: 0.5s;
+    color: #1b1c1c;
+    margin-bottom: 30px;
+  }
+  
+  .papy .boutons .lab.inf,
+  .taku .boutons .lab.his {
+    position: relative;
+  }
+  
+  #infos:checked ~ .boutons .lab.inf,
+  #cara:checked ~ .boutons .lab.car,
+  #histoire:checked ~ .boutons .lab.his {
+    background: #960027;
+    color: #fff;
+  }
+  
+  .papy .article {
+    position: relative;
+    min-height: 335px;
+  }
+  
+  .papy .article .contenu {
+    width: 320px;
+    background: #fff;
+    position: absolute;
+    top: -17px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    padding: 20px;
+    border: 1px solid #eee;
+    height: 290px;
+  }
+  
+  #infos:checked ~ .article .contenu.info,
+  #cara:checked ~ .article .contenu.carac,
+  #histoire:checked ~ .article .contenu.hist {
+    opacity: 1;
+    visibility: visible;
+  }
+  .papy cara {
+    font: 11px libre baskerville;
+    text-align: justify;
+    display: block;
+    padding: 20px;
+  }
+  .papy cara:first-line {
+    font-family: playfair display SC;
+  }
+  
+  .papy histo {
+    font: 11px libre baskerville;
+    text-align: justify;
+    display: block;
+    padding: 20px;
+  }
+  
+  .papy histo dt {
+    font: 9px playfair display SC;
+  }
+  .papy histo dte {
+    font: 9px playfair display SC;
+    text-align: right;
+    display: block;
+  }
+  
+  #papy ovf {
+    display: block;
+    overflow: auto;
+  }
+  #papy ovf::-webkit-scrollbar {
+    width: 0px;
+  }
+  #papy ovf::-webkit-scrollbar-track {
+    background: transparent url(images/backgrounds/scrollbar.png) repeat-y;
+  }
+  #papy ovf::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  #papy bgimg {
+    display: block;
+    background: url("https://i.imgur.com/KfJT5B8.png");
+    width: 450px;
+    height: 462px;
+  }
+  
+  #papy opa {
+    display: block;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    opacity: 0;
+  }
+  #papy opa:hover {
+    opacity: 1;
+  }
+  
+  #papy bgimg bg2 {
+    display: block;
+    width: 450px;
+    height: 462px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  #slider {
+    width: 450px;
+    height: 462px;
+    position: relative;
+    overflow: hidden;
+    left: 0px;
+  }
+  #slider .effect {
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    position: absolute;
+    top: -462px;
+    opacity: 1;
+  }
+  #slider:hover .effect {
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-delay: 2s;
+    top: 0px;
+  }
+  
+  #papy bg3 {
+    display: block;
+    width: 350px;
+    height: 362px;
+    padding: 50px;
+  }
+  
+  #papy infos {
+    display: block;
+    width: 75%;
+    height: 327px;
+    border-right: 1px solid #960027;
+    padding: 5%;
+    color: #fafafa;
+    font: 11px libre barskerville;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #papy infos c {
+    font: 9px playfair display sc;
+    color: #aa143b;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    font-style: italic;
+  }
+  
+  #papy ll {
+    width: 100%;
+    display: inline-flex;
+  }
+  
+  #papy icb {
+    display: block;
+    min-height: 50px;
+    width: 25%;
+    margin-left: 5%;
+  }
+  
+  #papy icb img {
+    width: 74px;
+    height: 74px;
+    border: 5px solid #960027;
+    object-fit: cover;
+  }
+  
+  #papy qstbg {
+    display: block;
+    background: #000;
+    width: 80%;
+    padding: 10%;
+  }
+  
+  #papy qstbg qst {
+    display: block;
+    color: #be284f;
+    font: 700 8px playfair display sc;
+    letter-spacing: 4px;
+    text-align: justify;
+  }
+  
+  
+  /* ....decouv_body_design.... */
+  #papy tri {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #000;
+    border-left: 450px solid transparent;
+    position: relative;
+  }
+  
+  
+  #papy statb {
+    display: block;
+    color: #fefefe;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 25px;
+  }
+  
+  #papy statb c {
+    font: 9px playfair display sc;
+    color: #aa143b;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    font-style: italic;
+    display: block;
+  }
+  
+  #papy statb b {
+    color: #aa143b
+  }
+  /* ....début_design_listgroup.... */
+  .bouton .btn{
+    width: 250px;
+    
+  }
+  .list-group{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  }
+  .topdleft .btn{
+    width: 450px;
+    margin: 6%;
+  }
+  .bottomdright .card-body{
+    width: 470px;
+  }
+  .bottomdright .card{
+    margin-left: 4%;
+  }
+
+
+  /* ....fin_design_listgroup.... */

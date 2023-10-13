@@ -1,0 +1,14 @@
+.topforma{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #CE0033;
+    width: 10%;
+    display: flex;
+    height: 4px;
+    margin: 0 auto;
+}
+.card{
+    border-bottom-right-radius: 80px 80px;
+    box-shadow: 2px 5px 5px #CE0033;
+}

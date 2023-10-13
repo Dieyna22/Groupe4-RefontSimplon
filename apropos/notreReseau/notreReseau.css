@@ -1,0 +1,99 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url('https://img.freepik.com/premium-photo/group-successful-businessmen_118454-367.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+.containerEntete3{
+    background-color: #C30038;
+    width: 40%;
+    height: 20px;
+    margin: 0 auto;
+}
+.containerEntete3 p{
+    color: #fff!important;
+}
+.containerEntete3 h2{
+    font-size: 24px !important;
+    padding: 5px;
+}
+.zoneNational{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.descNational{
+    display: flex;
+    background-color: #F6F6F6;
+    width: 55%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.carteNational img{
+    border-radius: 15px;
+    width: 85%;
+    height: 100%;
+}
+.text h5{
+    color: #C30033;
+}
+.statistiqueNational{
+    background-color: #C30033;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px auto;
+    width: 20%;
+    height: 45%;
+    padding: 8px;
+}
+.blanc{
+    background-color: #fff;
+    color: #C30033;
+    border: 2px solid #C30033;
+    padding: 8px;
+}
+.zoneRecherche{
+    margin-bottom: 15px;
+}
+.zoneRecherche h4{
+    color: #C30033;
+}
+.zoneRecherche select{
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #c4c3c3;
+    border-radius: 4px;
+    padding: 5px;
+}
+#map { height: 350px; }
+
+@media (max-width:700px){
+    .zoneNational{
+        display: flex;
+        flex-direction: column;
+    }
+    .descNational{
+        display: flex;
+        flex-direction: column;
+    }
+    .carteNational img{
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .statistiqueNational{
+        background-color: #C30033;
+        color: #fff;
+        border-radius: 15px;
+        text-align: center;
+        width: 30%;
+        height: 45%;
+    }
+    .blanc{
+        background-color: #fff;
+        color: #C30033;
+        border: 2px solid #C30033;
+    }
+}

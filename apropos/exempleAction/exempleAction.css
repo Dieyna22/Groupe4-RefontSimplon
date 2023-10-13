@@ -1,0 +1,62 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url('https://img.freepik.com/premium-photo/group-successful-businessmen_118454-367.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+.containerEntete3{
+    background-color: #C30038;
+    width: 40%;
+    height: 20px;
+    margin: 0 auto;
+}
+.containerEntete3 p{
+    color: #fff!important;
+}
+.containerEntete3 h2{
+    font-size: 24px !important;
+    padding: 5px;
+}
+.titreACtion{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.titreACtion h3{
+    color: #C30033;
+}
+.titreACtion .btn{
+    background-color: #F6F6F6;
+    border-radius: 25px;
+}
+.titreACtion .btn:hover{
+    background-color: #C30033;
+    color: #fff;
+}
+.typeAction{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+.itemAction{
+    background-color: #F6F6F6;
+    padding-bottom: 15px;
+}
+.itemAction img{
+    width: 100%;            
+    max-height: 200px;  
+}
+.itemAction h4{
+    font-weight: bold;
+    text-align: center;
+}
+.itemAction p{
+    text-align: justify;
+    font-size: 16px;
+}
+@media (max-width:900px){
+    .typeAction{
+        display: flex;
+        flex-direction: column;
+    }
+}

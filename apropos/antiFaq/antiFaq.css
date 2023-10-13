@@ -61,8 +61,10 @@ details[open] {
 .simplonFaq h5{
     font-weight: bold;
 }
-.simplonFaq hr{
-    color: #C30033;
-    width: 10%;
-    height: 10%;
+.trait{
+    width: 6%;
+    height: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #CE0033 !important;
 }

@@ -1,0 +1,140 @@
+.topsession{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #CE0033;
+    width: 12%;
+    display: flex;
+    height: 4px;
+    margin: 0 auto;
+}
+.one{
+    /* height: 300px; */
+}
+
+
+main .cartes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    row-gap: 25px;
+}
+
+main .contCarte{
+    margin: 0 5%;
+}
+
+main .cartes .carte{
+    background-color: white;
+}
+
+main .cartes .carte .imgCarte{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 4%;
+}
+
+main .cartes .carte img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+main .carte h3,p{
+    text-align: center;
+}
+
+main .carte h3{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+main .carte p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+main .carte .boutonCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+main .carte .boutonCart button{
+    background-color: #CE0033;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 15px;
+}
+
+main .carte .boutonCart button a{
+    color: white;
+}
+
+main .infoCarte{
+    background-color: #CE0033;
+    display: flex;
+    padding: 4%;
+    justify-content: space-between;
+}
+
+main .infoCarte p{
+    text-align: left;
+    color: white;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+main .infoCarte .info:nth-child(1) span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+main .infoCarte .info:nth-child(1) i{
+    color: white;
+    margin-right: 5px;
+}
+
+main .infoCarte .info:nth-child(2) span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+main .infoCarte .info:nth-child(2) i {
+    color: white;
+    margin-right: 5px;
+}
+
+main .carte .carteFooter{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+main .carte .carteFooter p{
+    margin: 0;
+    font-size: 10px;
+}
+.condition{
+    margin: 0 auto;
+}
+.btn{
+    margin: 0 auto;
+}
+.btn-left .put{
+    width: 250px;
+    padding: 2%;
+    font-size: 5px;
+}
+.btn-right button{
+    width: 70px;
+    margin-left: 2px;
+    height: 32px;
+}
+/* ......slide..... */
+
+

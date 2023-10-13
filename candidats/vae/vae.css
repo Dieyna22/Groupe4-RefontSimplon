@@ -1,0 +1,380 @@
+/* haeder */
+
+/* entete 3 */
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url(../vae/imgVae/vae0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+
+.entete3 .backEntete3 {
+    background-color: rgba(0, 0, 0, 0.658);
+    padding-top: 12%;
+    padding-bottom: 1%;
+}
+
+.entete3 .containerEntete3 {
+    text-align: center;
+    padding-bottom: 12%;
+}
+
+.entete3 .containerEntete3 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    width: 65%;
+    margin: 0 auto;
+    background-color: #ce0034c3;
+    padding: 2% 0;
+}
+
+.entete3 .raccourcis {
+    padding-left: 4%;
+}
+
+.entete3 .raccourcis .raccourcisP {
+    color: white !important;
+    text-align: left !important;
+    font-weight: 700;
+}
+
+.entete3 .raccourcis .raccourcisP a {
+    color: white;
+}
+
+.entete3 .raccourcis .right {
+    color: #CE0033;
+}
+
+/* entete 3 */
+
+
+/* media queries */
+
+@media(max-width:700px) {
+
+    /* entete1 */
+    .entete1 .left {
+        width: 20%;
+        padding-top: 1px;
+    }
+
+    .entete1 .rightContainer {
+        display: none !important;
+    }
+
+    .entete1 .burger {
+        display: block;
+    }
+
+    .entete1 .burger i {
+        font-size: 30px;
+    }
+
+
+    /* entete2 */
+    .entete2 {
+        display: none;
+    }
+
+    /* dropMenu */
+    .dropNav {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    .dropMenu .dropMenuHidden {
+        left: -100px;
+    }
+
+    .dropMenu .close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        border-radius: 50%;
+        left: 85%;
+        top: 10%;
+    }
+
+    .dropMenu .close i {
+        font-size: 18px;
+        color: #CE0033;
+    }
+
+    .dropMenu {
+        display: block;
+        position: absolute;
+        background-color: #ce0034ed;
+        top: 45px;
+        width: 100%;
+        height: 96vh;
+        overflow: hidden;
+        left: -700px;
+    }
+
+    .dropMenu .dropFirst {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70vh;
+        padding-left: 4%;
+    }
+
+    .dropMenu .dropFirst li a {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    ul.dropFirst li:hover ul.dropSecond {
+        display: block;
+    }
+
+    .dropNav .dropSecond {
+        position: absolute;
+        background-color: white;
+        left: 110px;
+        padding: 2%;
+    }
+
+    .dropNav .dropSecond li {
+        margin-bottom: 10px;
+    }
+
+    .dropNav .dropSecond li a {
+        font-size: 16px;
+        color: rgb(7, 0, 0);
+        font-weight: 700;
+    }
+
+    .dropNav .dropSecond li:hover {
+        background-color: #CE0033;
+        padding: 5px;
+    }
+
+    .dropNav .dropSecond li:hover a {
+        color: white !important;
+    }
+
+    .dropMenu .burger {
+        transition: left 2s ease;
+    }
+
+
+    /* entete3 */
+    .entete3 {
+        margin-top: 40px;
+    }
+
+    .entete3 .containerEntete3 h2 {
+        font-size: 18px;
+        margin-top: 5%;
+    }
+
+
+    /* Main */
+    main .sectionVaeInfo .containerVaeInfo{
+        margin: 2% 4%;
+        display: block;
+    }
+
+    main .sectionVaeInfo .containerVaeInfo .imgVae{
+        width: 100%;
+    }
+
+    main .sectionVaeInfo .containerVaeInfo .textVae{
+        width: 100%;
+    }
+
+    main .detailVaeContainer h3{
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 4%;
+    }
+
+
+    /* footer */
+    footer .footerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width:1100px) {
+
+    /* entete1 */
+    .entete1 .left {
+        width: 10%;
+        padding-top: 1%;
+    }
+
+    .entete1 .rightContainer {
+        width: 90%;
+        padding: 0;
+    }
+
+    .entete1 .Rdet .iconR {
+        font-size: 18px;
+    }
+
+    .entete1 .Rdet .textR {
+        font-size: 10px;
+    }
+
+    /* entete2 */
+
+    .entete2 .icones span {
+        width: 18px;
+        height: 18px;
+    }
+
+    .entete2 .icones span i {
+        font-size: 8px;
+    }
+
+    .entete2 .menuleft .firstUl li a {
+        font-size: 13px;
+    }
+
+    /* DropMenu */
+    .dropMenu {
+        display: none;
+    }
+
+    /* entete3 */
+
+    .entete3 {
+        margin-top: 105px;
+    }
+
+    /* Main */
+    main .sectionVaeInfo .containerVaeInfo{
+        margin: 2% 4%;
+        display: block;
+    }
+
+    main .sectionVaeInfo .containerVaeInfo .imgVae{
+        width: 100%;
+    }
+
+    main .sectionVaeInfo .containerVaeInfo .textVae{
+        width: 100%;
+    }
+
+    main .detailVaeContainer h3{
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 4%;
+    }
+}
+
+/* header */
+
+/* main */
+
+main{
+    padding: 0 !important;
+    background-color: #d9d9d9a4;
+    margin-top: 0 !important;
+}
+
+main .VaeContainer{
+    margin: 2% 4%;
+}
+
+main .VaeContainer .vaeTitre h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+main .vaeTitre .traitVae{
+    width: 10%;
+    height: 4px;
+    background-color: #CE0033;
+    margin: 0 auto;
+}
+
+main .sectionVaeInfo{
+    padding-bottom: 2%;
+}
+
+main .containerVaeInfo{
+    margin: 2% 4%;
+    display: flex;
+}
+
+main .containerVaeInfo .imgVae{
+    width: 35%;
+}
+
+main .containerVaeInfo .textVae{
+    width: 65%;
+    text-align: justify;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CE0033;
+}
+
+main .containerVaeInfo .textVae p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+
+main .containerVaeInfo img{
+    width: 100%;
+}
+
+main .detailVae{
+    padding-bottom: 2%;
+}
+
+main .detailVae .detailVaeContainer{
+    margin: 2% 4%;
+    background-color: white;
+    padding: 2%;
+}
+
+.detailVaeContainer h3{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.detailVaeContainer h4{
+    font-weight: bold;
+}
+
+.detailVaeContainer p{
+    text-align: justify;
+}
+
+.detailVaeContainer ul li {
+    margin-left: 10px;
+}
+
+.detailVaeContainer ul li i{
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+
+/* main */

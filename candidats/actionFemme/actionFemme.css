@@ -1,0 +1,484 @@
+/* header */
+/* entete 3 */
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url(./imgFemme/imgF1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+
+.entete3 .backEntete3 {
+    background-color: rgba(0, 0, 0, 0.658);
+    padding-top: 14%;
+    padding-bottom: 1%;
+}
+
+.entete3 .containerEntete3 {
+    text-align: center;
+    padding-bottom: 14%;
+}
+
+.entete3 .containerEntete3 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ce0034c3;
+    padding: 2% 0;
+}
+
+.entete3 .raccourcis {
+    padding-left: 4%;
+}
+
+.entete3 .raccourcis .raccourcisP {
+    color: white !important;
+    text-align: left !important;
+    font-weight: 700;
+}
+
+.entete3 .raccourcis .raccourcisP a {
+    color: white;
+}
+
+.entete3 .raccourcis .right {
+    color: #CE0033;
+}
+
+/* entete 3 */
+
+
+
+
+
+/* media queries */
+
+@media(max-width:700px) {
+
+    /* entete1 */
+    .entete1 .left {
+        width: 20%;
+        padding-top: 1px;
+    }
+
+    .entete1 .rightContainer {
+        display: none !important;
+    }
+
+    .entete1 .burger {
+        display: block;
+    }
+
+    .entete1 .burger i {
+        font-size: 30px;
+    }
+
+
+    /* entete2 */
+    .entete2 {
+        display: none;
+    }
+
+    /* dropMenu */
+    .dropNav {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    .dropMenu .dropMenuHidden {
+        left: -100px;
+    }
+
+    .dropMenu .close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        border-radius: 50%;
+        left: 85%;
+        top: 10%;
+    }
+
+    .dropMenu .close i {
+        font-size: 18px;
+        color: #CE0033;
+    }
+
+    .dropMenu {
+        display: block;
+        position: absolute;
+        background-color: #ce0034ed;
+        top: 45px;
+        width: 100%;
+        height: 96vh;
+        overflow: hidden;
+        left: -700px;
+    }
+
+    .dropMenu .dropFirst {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70vh;
+        padding-left: 4%;
+    }
+
+    .dropMenu .dropFirst li a {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    ul.dropFirst li:hover ul.dropSecond {
+        display: block;
+    }
+
+    .dropNav .dropSecond {
+        position: absolute;
+        background-color: white;
+        left: 110px;
+        padding: 2%;
+    }
+
+    .dropNav .dropSecond li {
+        margin-bottom: 10px;
+    }
+
+    .dropNav .dropSecond li a {
+        font-size: 16px;
+        color: rgb(7, 0, 0);
+        font-weight: 700;
+    }
+
+    .dropNav .dropSecond li:hover {
+        background-color: #CE0033;
+        padding: 5px;
+    }
+
+    .dropNav .dropSecond li:hover a {
+        color: white !important;
+    }
+
+    .dropMenu .burger {
+        transition: left 2s ease;
+    }
+
+
+    /* entete3 */
+    .entete3 {
+        margin-top: 40px;
+    }
+
+    .entete3 .containerEntete3 h2 {
+        font-size: 18px;
+        margin-top: 5%;
+    }
+
+
+    /* footer */
+    footer .footerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* sectionF */
+    main .sectionF .sectionFemContainer .detailfem{
+        display: block;
+    }
+
+    main .sectionF .pTitre{
+        width: 100%;
+    }
+
+    main .sectionF .detailfem .detFemImg{
+        width: 100%;
+    }
+    main .sectionF .detailfem .detFemtext{
+        width: 100%;
+        background-color: white;
+    }
+
+    /* section2 */
+    main .section2 .section2Container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    /* section3 */
+    main .section3{
+        margin-top: 4%;
+    }
+    main .section3 .detailfem3{
+        display: block;
+    }
+
+    main .section3 .detailfem3 .detFemtext3{
+        width: 100%;
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+
+    main .sectionF .detailfem .detFemtext p{
+        text-align: justify !important;
+    }
+
+    main .section3 .detailfem3 .detFemImg3{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width:1100px) {
+
+    /* entete1 */
+    .entete1 .left {
+        width: 10%;
+        padding-top: 1%;
+    }
+
+    .entete1 .rightContainer {
+        width: 90%;
+        padding: 0;
+    }
+
+    .entete1 .Rdet .iconR {
+        font-size: 18px;
+    }
+
+    .entete1 .Rdet .textR {
+        font-size: 10px;
+    }
+
+    /* entete2 */
+
+    .entete2 .icones span {
+        width: 18px;
+        height: 18px;
+    }
+
+    .entete2 .icones span i {
+        font-size: 8px;
+    }
+
+    .entete2 .menuleft .firstUl li a {
+        font-size: 13px;
+    }
+
+    /* DropMenu */
+    .dropMenu {
+        display: none;
+    }
+
+    /* entete3 */
+
+    .entete3 {
+        margin-top: 105px;
+    }
+
+    /* sectionF */
+    main .sectionF .sectionFemContainer .detailfem{
+        display: block;
+    }
+
+    main .sectionF .detailfem .detFemImg{
+        width: 100%;
+    }
+    main .sectionF .detailfem .detFemtext{
+        width: 100%;
+        background-color: white;
+    }
+
+    /* section3 */
+    main .sectionF .pTitre{
+        width: 90%;
+    }
+    main .section3 .detailfem3{
+        display: block;
+    }
+
+    main .section3 .detailfem3 .detFemtext3{
+        width: 100%;
+    }
+
+    main .section3 .detailfem3 .detFemImg3{
+        width: 100%;
+    }
+
+
+}
+/* header */
+
+/* main */
+
+main{
+    padding-top: 2% !important;
+    background-color: #d9d9d9a3;
+}
+
+/* main .sectionF{
+    border: 1px solid red;
+} */
+
+main .sectionF .sectionFemContainer{
+   margin-bottom: 3%;
+}
+
+.sectionFemContainer .titreFem{
+    text-align: center;
+}
+
+.sectionFemContainer .titreFem .pTitre{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sectionFemContainer .pTitre{
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.sectionFemContainer .titreFem .traiFem{
+    width: 10%;
+    background-color: #CE0033;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    height: 5px;
+}
+
+.sectionFemContainer .detailfem{
+    display: flex;
+}
+
+.detailfem .detFemImg{
+    width: 35%;
+}
+.detailfem .detFemtext{
+    width: 65%;
+    background-color: white;
+}
+
+.detailfem .detFemImg img{
+    width: 100%;
+}
+
+.detailfem .detFemtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.detFemtext h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.detFemtext p{
+    font-size: 18px;
+}
+
+/* section 2 */
+/* main .section2{
+    
+} */
+
+main .section2Container{
+    /* margin: 2% 4%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8%;
+}
+
+main .cartFem{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+main .cartFem:nth-child(1), main .cartFem:nth-child(3){
+    background-color: #CE0033;
+    color: white;
+}
+
+main .cartFem:nth-child(2){
+    background-color: white;
+    color: #CE0033;
+}
+
+main .cartFem p{
+    margin: 0;
+    text-align: center;
+}
+
+main .cartFem .number{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+main .cartFem .text{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+/* section3 */
+main .section3{
+    margin-top: 4%;
+}
+
+main .detailfem3{
+    display: flex;
+}
+
+
+main .sectionFemContainer3 .detFemtext3{
+    width: 60%;
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .sectionFemContainer3 .detFemImg3{
+    width: 40%;
+}
+
+main .sectionFemContainer3 .detFemImg3 img{
+    width: 100%;
+}
+
+main .section3 h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+main .section3 p{
+    font-size: 18px !important;
+}
+
+.detFemtext3 button{
+    background-color: #CE0033 !important;
+    border: none;
+    font-weight: 700;
+}
+
+.detFemtext3 button a{
+    color: white;
+}
+/* main */

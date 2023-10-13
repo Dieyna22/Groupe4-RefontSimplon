@@ -1,0 +1,115 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url('https://img.freepik.com/premium-photo/group-successful-businessmen_118454-367.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+.containerEntete3{
+    background-color: #C30038;
+    width: 40%;
+    height: 20px;
+    margin: 0 auto;
+}
+.containerEntete3 p{
+    color: #fff!important;
+}
+.containerEntete3 h2{
+    font-size: 24px !important;
+    padding: 5px;
+}
+.typePedagogie{
+    display: flex;
+    margin-bottom: 25px;
+}
+.typePedagogie .type1{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-left: 8px;
+    padding: 10px;
+    text-align: justify;
+}
+.typePedagogie .type1 h3{
+    color: #CE0033;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.piliers{
+    margin-bottom: 25px;
+}
+.piliers h3{
+    color: #CE0033;
+    font-size: bold;
+    text-align: center;
+}
+.cardPiliers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.itemPilier{
+    text-align: center;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 5px;
+}
+.rouge{
+    background-color: #CE0033;
+    color: #fff;
+}
+.blanc{
+    background-color: #fff;
+    color: #CE0033;
+    border: 2px solid #CE0033;
+}
+.autrePedagogie h3{
+    color: #CE0033;
+    text-align: center;
+}
+.noir{
+    background-color: #000;
+    color: #fff;
+}
+.autreP{
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 10px;
+}
+.cardP{
+    background-color: #f6f6f6;
+    padding: 15px;
+}
+.cardP img{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 8px;
+}
+.cardP h4{
+    color: #CE0033;
+    text-align: center;
+}
+.cardP p{
+    font-size: 14px;
+    text-align: justify;
+}
+@media (max-width:900px){
+    .containerPedagogie{
+        display: flex;
+        flex-direction: column;
+    }
+    .typePedagogie{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardPiliers{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .autreP{
+        display: grid;
+        grid-template-columns: auto; 
+        gap: 10px;
+    }
+}

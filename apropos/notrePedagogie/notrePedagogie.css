@@ -6,9 +6,10 @@
     margin-top: 138px;
 }
 .containerEntete3{
-    background-color: #C30038;
-    width: 40%;
-    height: 20px;
+    background-color:#b00b2f9c;
+    width: 45%;
+    height: 10px;
+    text-align: center;
     margin: 0 auto;
 }
 .containerEntete3 p{
@@ -20,7 +21,7 @@
 }
 .typePedagogie{
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .typePedagogie .type1{
     background-color: #f6f6f6;
@@ -36,23 +37,24 @@
     text-align: center;
 }
 .piliers{
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .piliers h3{
     color: #CE0033;
     font-size: bold;
     text-align: center;
+    margin-bottom: 25px;
 }
 .cardPiliers{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+    gap: 30px;
 }
 .itemPilier{
     text-align: center;
     background-color: #f6f6f6;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 .rouge{
     background-color: #CE0033;
@@ -66,6 +68,7 @@
 .autrePedagogie h3{
     color: #CE0033;
     text-align: center;
+    margin-bottom: 25px;
 }
 .noir{
     background-color: #000;
@@ -79,6 +82,7 @@
 .cardP{
     background-color: #f6f6f6;
     padding: 15px;
+    height: 60%;
 }
 .cardP img{
     width: 100%;

@@ -1,14 +1,15 @@
 .entete3 {
     border-top: 5px solid #CE0033;
-    background-image: url('https://img.freepik.com/premium-photo/group-successful-businessmen_118454-367.jpg?w=740') !important;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url('../../style/SimplonImg/IMG1.jpg') !important;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
     margin-top: 138px;
 }
 .containerEntete3{
-    background-color: #C30038;
-    width: 40%;
-    height: 20px;
+    background-color:#b00b2f9c;
+    width: 45%;
+    height: 10px;
+    text-align: center;
     margin: 0 auto;
 }
 .containerEntete3 p{
@@ -28,18 +29,21 @@
     display: flex;
     background-color: #F6F6F6;
     padding: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .imageSimplon{
-    width: 30%;
-    height: 20%;
+    width: 50%;
+    height: 60%;
+}
+.imageSimplon img { 
+    width: 100%;
 }
 .textSimplon{
     background-color: #eeeeee;
     position: relative;
-    left: -14px;
-    top: 65px;
-    height: 45vh;
+    left: -18vh;
+    top: 25px;
+    height: 35vh;
     text-align: justify;
     padding: 8px;
 }
@@ -47,13 +51,16 @@
     color: #ce0033;
     font-size: 24px;
 }
+.textSimplon p{
+    font-size: 14px;
+}
 .notreHistire{
     display: flex;
     justify-content: space-between;
-    padding: 14px;
+    padding: 12px;
     background-color: #F6F6F6;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .notreHistire .titre h3{
     color: #ce0033;
@@ -119,6 +126,13 @@ details[open] {
     color: #ce0033;
     font-size: 24px;
     text-align: center;
+}
+.videoSimplon{
+    display: flex;
+    padding: 4px;
+}
+.videoSimplon .video{
+    margin: 6px;
 }
 
 

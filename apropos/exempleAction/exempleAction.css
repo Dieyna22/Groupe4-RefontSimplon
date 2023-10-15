@@ -55,9 +55,27 @@
     text-align: justify;
     font-size: 16px;
 }
-@media (max-width:900px){
+
+@media (max-width:700px){
     .typeAction{
         display: flex;
         flex-direction: column;
+    }
+    .titreACtion{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    .btn{
+        margin-bottom: 10px!important;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width:1100px){
+    .typeAction{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto auto;
     }
 }

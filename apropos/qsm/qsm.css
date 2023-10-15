@@ -259,7 +259,6 @@ details[open] {
 
     .descriptionSimplon .imageSimplon{
         width: 100%;
-        border: 1px solid red;
         margin-bottom: 2%;
     }
 
@@ -277,6 +276,21 @@ details[open] {
         /* height: 35vh; */
         text-align: justify;
         padding: 8px;
+    }
+    .detailsHistoire{
+        width: 100%;
+    }
+    .infosSup{
+        display: flex;
+        flex-direction: column;
+    }
+    .engagementSimplon{
+        width: 100%; 
+    }
+    .videoSimplon{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
     }
 }
 
@@ -302,11 +316,6 @@ details[open] {
         margin-bottom: 25px;
     }
 
-    .descriptionSimplon .imageSimplon{
-        /* width: 40%; */
-        border: 1px solid red;
-    }
-
     .descriptionSimplon .imageSimplon img{
         width: 100%;
         height: 100%;
@@ -321,5 +330,26 @@ details[open] {
         /* height: 35vh; */
         text-align: justify;
         padding: 8px;
+    }
+    .notreHistire{
+        display: flex;
+        flex-direction: column;
+    }
+    .notreHostoire .titre h3{
+      margin: 0 auto;
+    }
+    .detailsHistoire{
+        width: 100%;
+    }
+    .infosSup{
+        display: flex;
+        flex-direction: column;
+    }
+    .engagementSimplon{
+        width: 100%; 
+        margin-bottom: 9px;
+    }
+    .videoSimplon{
+      margin: 0 auto;
     }
 }

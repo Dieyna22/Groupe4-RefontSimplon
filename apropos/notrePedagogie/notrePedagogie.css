@@ -97,7 +97,8 @@
     font-size: 14px;
     text-align: justify;
 }
-@media (max-width:900px){
+
+@media (max-width:700px){
     .containerPedagogie{
         display: flex;
         flex-direction: column;
@@ -105,6 +106,9 @@
     .typePedagogie{
         display: flex;
         flex-direction: column;
+    }
+    .type1{
+        margin-bottom: 9px;
     }
     .cardPiliers{
         display: grid;
@@ -116,4 +120,44 @@
         grid-template-columns: auto; 
         gap: 10px;
     }
+    .cardP{
+        background-color: #f6f6f6;
+        padding: 15px;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width:1100px){
+    .containerPedagogie{
+        display: flex;
+        flex-direction: column;
+    }
+    .typePedagogie{
+        display: flex;
+        flex-direction: column;
+    }
+    .type1{
+        margin-bottom: 9px;
+    }
+    .cardPiliers{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .autreP{
+        display: grid;
+        grid-template-columns: auto; 
+        gap: 10px;
+    }
+    .cardP{
+        background-color: #f6f6f6;
+        padding: 15px;
+        height: 100%;
+    }
+    .cardP img{
+        width: 100%;
+        height: 70%;
+        margin-bottom: 8px;
+    }
+    
 }

@@ -73,38 +73,17 @@ details[open] {
     margin-bottom: 20px;
 }
 @media(max-width:700px){
-    .entete3{
-        margin-top: 10px;
+    .titreFaq{
+        margin-bottom: 15px;
     }
-    .containerEntete3{
-        background-color: #C30038;
-        width: 80%;
-        height: 20px;
-        margin: 0 auto;
-        padding: 2px;
+    .simplonFaq{
+        text-align: center;
     }
-    .containerEntete3 h2{
-        font-size: 10px!important;
+    .trait{
+        margin: 0 auto !important;
+        width: 15%;
     }
-    .containerEntete3 p{
-        font-size: 10px!important;
-    }
-}
-@media only screen and (min-width: 700px) and (max-width:1100px){
-    .entete3{
-        margin-top: 5px;
-    }
-    .containerEntete3{
-        background-color: #C30038;
-        width: 70%;
-        height: 10px;
-        margin: 0 auto;
-        padding: 2px;
-    }
-    .containerEntete3 h2{
-        font-size: 5px!important;
-    }
-    .containerEntete3 p{
-        font-size: 10px!important;
+    summary {
+       font-size: 14px;
     }
 }

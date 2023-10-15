@@ -29,6 +29,21 @@
     height: 4px;
     margin: 0 auto;
 }
-@media only screen and (min-width: 700px) and (max-width:1100px){
-    
+
+
+
+@media(max-width: 700px) {
+    .boutons1 {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width:1100px) {
+    .boutons1 {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
 }

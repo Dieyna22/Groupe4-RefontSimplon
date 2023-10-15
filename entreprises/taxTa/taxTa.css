@@ -10,7 +10,22 @@
     justify-content: center;
     display: flex;
     gap: 20px;
+    padding: 0;
 }
+
+.taxeTA .ImageTA{
+    width: 50%;
+}
+
+.taxeTA .ImageTA img{
+    width: 100%;
+}
+
+.taxeTA .Taxe{
+    width: 50%;
+}
+
+
 .left{
     color: white;
 }
@@ -52,3 +67,49 @@ margin-left: 20px;
     background-color:#f1f5f8 ;
     border: none;
 }   
+
+
+@media(max-width: 700px) {
+    .taxeTA{
+        justify-content: center;
+        display: block;
+    }
+
+    .taxeTA .ImageTA{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .taxeTA .Taxe{
+        width: 100%;
+    }
+
+    .entete3{
+        margin-top: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width:1100px) {
+
+    .entete3{
+        margin-top: 105px;
+    }
+    .taxeTA{
+        justify-content: center;
+        display: block;
+    }
+
+    .taxeTA .ImageTA{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .taxeTA .ImageTA img{
+        width: 100%;
+    }
+
+    .taxeTA .Taxe{
+        width: 100%;
+    }
+}

@@ -53,9 +53,34 @@ let calcScrollValue = () => {
     let menuToglerIcon = document.querySelector('.menuTogler i');
     let dropDownMenu = document.querySelector('.dropDownMenu');
 
-    menuTogler.onclick = function () {
-        dropDownMenu.classList.toggle('open');
-        let isOpen = dropDownMenu.classList.contains('open');
+    // menuTogler.onclick = function () {
+    //     dropDownMenu.classList.toggle('open');
+    //     let isOpen = dropDownMenu.classList.contains('open');
 
-        menuToglerIcon.classList = isOpen ? 'bi bi-x ' : 'bi bi-list ';
-    }
+    //     menuToglerIcon.classList = isOpen ? 'bi bi-x ' : 'bi bi-list ';
+    // }
+
+
+
+
+
+
+
+
+// Sweet alert
+
+var btnSweet = document.querySelector('.btnSweet');
+console.log(btnSweet);
+
+btnSweet.addEventListener('click', (event) => {
+    event.preventDefault();
+    // alert('Hello')
+
+    Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Your work has been saved",
+        showConfirmButton: false,
+        timer: 1500,
+    });
+})

@@ -302,5 +302,11 @@
   box-shadow: 5px 10px 5px 10px rgb(233, 224, 224);
   padding: 3%;
 }
+.detailsleft{
+  height: 430px;
+}
 
   /* ....fin_design_listgroup.... */
+  @media only screen and (min-width: 700px) and (max-width:1100px){
+    
+  }

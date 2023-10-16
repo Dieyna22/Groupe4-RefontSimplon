@@ -68,19 +68,36 @@ let calcScrollValue = () => {
 
 
 // Sweet alert
+var formulaire = document.querySelector('form');
+console.log(formulaire);
+const email = document.getElementById('Email');
+console.log(email);
 
-var btnSweet = document.querySelector('.btnSweet');
-console.log(btnSweet);
+formulaire.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-btnSweet.addEventListener('click', (event) => {
-    event.preventDefault();
-    // alert('Hello')
+    let regexEmail = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-    Swal.fire({
-        position: "top-end",
-        icon: "success",
-        title: "Your work has been saved",
-        showConfirmButton: false,
-        timer: 1500,
-    });
+    if(email.value === ''){
+        // alert('Please enter email address');
+        Swal.fire({
+            icon: "error",
+            title: "Oh non",
+            text: "Renseigner votre addresse email SVP...",
+        });
+    }else if(!email.value.match(regexEmail)) {
+        // alert('Please enter a valid email');
+        Swal.fire({
+            icon: "error",
+            title: "Attention",
+            text: "Vérifier votre addresse email SVP...",
+        });
+    }else{
+        // alert('email already');
+        Swal.fire({
+            icon: "success",
+            title: "Bien, Bravo",
+            text: "Vos etes abonné à notre newsletter",
+        });
+    }
 })

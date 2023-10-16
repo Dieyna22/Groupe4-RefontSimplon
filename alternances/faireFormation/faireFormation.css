@@ -113,7 +113,19 @@ main .carte .carteFooter p{
 }
 
 
-.entete3 { border-top: 5px solid #CE0033; background-image: url(../recruterAlternace/img\ alternance/img1.jpg); background-repeat: no-repeat; background-size: 100% 100%; margin-top: 138px; }
+.entete3 {
+     border-top: 5px solid #CE0033; 
+     background-image: url(../faireFormation/imgbaniére.png);
+     background-repeat: no-repeat; 
+     background-size: 100% 100%; 
+      margin-top: 138px; 
+      width: 100%;
+      padding-top: 5%;
+      height: 100%; 
+      padding-bottom: 8%;
+    }
+
+     
     .textrouge{
         color: #CE0033;
         font-size: 100%;
@@ -311,23 +323,23 @@ main .carte .carteFooter p{
     }
     
     /* <!-- partie forme baground de la page d'acceuil --> */
-    body{
+    /* body{
         background-color: var(--main-background-color);
-    }
+    } */
     
-        .box{
+        /* .box{
         width: 80vh;
         height: 80vh;
         /* border: solid black; */
-        margin: auto;
+        /* margin: auto;
         position: relative;
         display: block;
         
-    }
+    } */ */
     
-    .center{
+    /* .center{
         padding-top: 50%;
-    }
+    } */
     
     /* .dialog-1{
           height: 20%;
@@ -364,20 +376,25 @@ main .carte .carteFooter p{
       background-color: var(--main-background-color);
       --main-light-color: #ded9d9c0;
   }
+
+  .entete3 .backEntete3 {
+    background-color: none !important;
+  }
   
-  .box{
+  /* .box{
     width: 85vh;
     height: 80vh;
     /* border: solid black; */
-    margin: auto;
+    /* margin: auto;
     position: relative;
     display: block;
     margin-bottom: 15%;
-}
+} */
 
-.center{
+/* .center{
     padding-top: 50%;
 }
+
 
 
 
@@ -397,12 +414,12 @@ main .carte .carteFooter p{
       height: 50%;
       width: 70%;
       /* background-color: var(--main-light-color); */
-      position: absolute;
+      /* position: absolute;
       border-radius: 45%;
       right: 0;
-}
+} */
 
-.right-point{
+/* .right-point{
     width: 0;
     height: 0;
     border-left: 3vh solid transparent;
@@ -412,4 +429,4 @@ main .carte .carteFooter p{
     top: 45%;
     right: -10%;
     transform: rotate(-60deg);
-}
+} */ 

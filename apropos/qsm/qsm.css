@@ -41,14 +41,14 @@
     width: 100%;
 }
 .textSimplon{
-    width: 60%;
+    width: 70%;
     background-color: #eeeeee;
     position: relative;
-    left: -18vh;
-    top: 55px;
-    height: 35vh;
+    left: -35vh;
+    top: 15px;
+    height: 45vh;
     text-align: justify;
-    padding: 8px;
+    padding: 18px;
 }
 .textSimplon h3{
     color: #ce0033;
@@ -327,7 +327,7 @@ details[open] {
         position: relative;
         left: 10px;
         top: 0px;
-        /* height: 35vh; */
+        height: 75vh;
         text-align: justify;
         padding: 8px;
     }

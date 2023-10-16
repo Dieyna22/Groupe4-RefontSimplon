@@ -227,9 +227,9 @@ main .carte .carteFooter p{
     .boutton2{
         background-color: #FFFFFF;
         color: black;
-        border-bottom-color: #CE0033  solid 6PX;border-bottom: #CE0033 solid 5px;
+        border-bottom-color: #CE0033  solid 6PX;border-bottom: #CE0033 solid 2px;
         border-left-color: #CE0033 solid rgb(308, 18, 5);border-left: #CE0033 solid 2px;
-        border-right-color: #CE0033 solid 2PX;border-right: #CE0033 solid 2px;
+        border-right-color: #CE0033 solid 2PX;border-right: #CE0033 solid 1px;
         border-top-color: #CE0033 solid 2PX;border-top: #FFFFFF solid 1px;
         padding-left: 3%;
         padding-right: 1%;
@@ -241,8 +241,8 @@ main .carte .carteFooter p{
     .boutton3{
         background-color: #FFFFFF;
         color: black;
-        border-bottom-color: #CE0033  solid 6PX;border-bottom: #CE0033 solid 5px;
-        border-left-color: #CE0033 solid rgb(308, 18, 5);border-left: #CE0033 solid 2px;
+        border-bottom-color: #CE0033  solid 6PX;border-bottom: #CE0033 solid 2px;
+        border-left-color: #CE0033 solid rgb(308, 18, 5);border-left: #CE0033 solid 1px;
         border-right-color: #CE0033 solid 2PX;border-right: #CE0033 solid 2px;
         border-top-color: #CE0033 solid 2PX;border-top: #FFFFFF solid 1px;
         padding-left: 3%;

@@ -197,3 +197,11 @@ p{
     /* border: #CE0033 solid 1px; */
     /* background-color: #F6F6F6; */
 }
+.migCartes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 24px;
+}
+.cartMImg{
+    
+}

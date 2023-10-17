@@ -261,11 +261,12 @@ main .carte .carteFooter p{
         border: #CE0033 solid 2PX;border-top: #FFFFFF solid 1px;
         /* padding-left: 3%; */
         padding-right: 1%;
-        box-shadow: 4px 3px 7px rgb(208, 18, 5);
+        /* box-shadow: 4px 3px 7px rgb(208, 18, 5); */
         font-weight: bold;
         /* margin-left: 22%; */
         /* margin-top: 3%;
         margin-right: 25%; */
+        border: 2px solid #CE0033;
         width: 60%;
         margin-top: 3%;
 

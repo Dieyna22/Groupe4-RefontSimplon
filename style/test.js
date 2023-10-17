@@ -97,7 +97,7 @@ formulaire.addEventListener('submit', (e) => {
         Swal.fire({
             icon: "success",
             title: "Bien, Bravo",
-            text: "Vos etes abonné à notre newsletter",
+            text: "Vous etes abonné à notre newsletter",
         });
     }
 })
